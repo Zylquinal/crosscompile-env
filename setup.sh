@@ -6,7 +6,7 @@ git clone https://github.com/tpoechtrager/osxcross
 
 # build osxcross
 cd osxcross/tarballs || exit
-wget "$SDK_URL"
+wget --quiet "$SDK_URL"
 
 cd .. || exit
 
